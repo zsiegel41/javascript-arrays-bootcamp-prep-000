@@ -6,7 +6,7 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(array, element) {
-  return [element, ...array]
+  return newArray = [element, ...array]
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
@@ -15,12 +15,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  return [array, ...element]
+  return newArray = [array, ...element]
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
-  return element
+  return chocolateBars
 }
 
 function accessElementInArray(array, element) {
